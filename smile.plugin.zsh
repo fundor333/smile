@@ -1,4 +1,4 @@
-# bofh: BOFH fortunes
+# smile: Print a Smile on your terminal
 
 
 function smile() {
@@ -16,9 +16,8 @@ function smile() {
       "(• ε •)"
       "◉_◉"
     )
-    
-    echo "${smile_quotes[RANDOM % #smile_quotes + 1]}"
+    smile_string="${smile_quotes[RANDOM%${#smile_quotes[@]}]}"
+    echo $smile_string
     unset smile_quotes
 }
-
 
