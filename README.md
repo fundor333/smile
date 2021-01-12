@@ -1,6 +1,6 @@
 # emojismile
 
-BOFH fortunes plugin for oh-my-zsh. Perfectly suitable as MOTD.
+smile enoji plugin for oh-my-zsh.
 
 **Maintainers**: [fundor333](https://github.com/fundor333) 
 
